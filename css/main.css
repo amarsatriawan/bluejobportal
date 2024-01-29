@@ -2,7 +2,7 @@
 *::after,
 *::before {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #9d9d9d;
 }
 
@@ -26,24 +26,35 @@ a:hover {
   font-weight: 900;
 }
 
-input, textarea {
+input,
+textarea {
   border-radius: 0px;
   border: 1px solid #e7e7e7 !important;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: 0px !important;
   -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-  border: 1px solid #92d35e !important;
+  box-shadow: none !important;
+  border: 1px solid #6499e9 !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #4b4b4b;
   font-weight: 900;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 20px;
 }
 
@@ -53,7 +64,7 @@ h1 {
 }
 
 .green {
-  color: #92d35e;
+  color: #6499e9;
 }
 
 .navbar {
@@ -80,21 +91,23 @@ h1 {
   margin-right: 20px;
 }
 
-.navbar li .nav-link:hover, .navbar li .active {
+.navbar li .nav-link:hover,
+.navbar li .active {
   font-weight: 900;
 }
 
-.navbar .navbar-toggler:focus, .navbar .navbar-toggler:hover {
+.navbar .navbar-toggler:focus,
+.navbar .navbar-toggler:hover {
   border: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   outline: none;
 }
 
 .navbar .create-account {
   text-decoration: none;
   font-weight: 600;
-  background-color: #92d35e;
+  background-color: #6499e9;
   border: none;
   border-radius: 12px;
   -webkit-transition: background-color 0.3s ease;
@@ -111,8 +124,7 @@ h1 {
 }
 
 .nav-bg {
-  background-image: url("../img/hader-bg.png");
-  background-color: #f1f7eb;
+  background-color: #ffff;
   background-repeat: no-repeat;
   background-position: center 0;
 }
@@ -122,7 +134,7 @@ h1 {
   text-decoration: none;
   color: white;
   font-weight: 600;
-  background-color: #92d35e;
+  background-color: #6499e9;
   border: none;
   padding: 15px 30px;
   border-radius: 12px;
@@ -157,10 +169,10 @@ h1 {
   position: absolute;
   top: 0;
   right: 0;
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f10e";
-  color: #92d35e;
+  color: #6499e9;
   font-size: 3em;
   z-index: -1;
 }
@@ -181,9 +193,9 @@ ul.list-in-text li {
 }
 
 ul.list-in-text li:before {
-  font-family: 'Font Awesome 5 Free';
-  content: "\f0c8";
-  color: #92d35e;
+  font-family: "Font Awesome 5 Free";
+  content: "f0c8";
+  color: #6499e9;
   padding-right: 10px;
   font-size: 0.8em;
 }
@@ -219,10 +231,11 @@ ul.list-in-text li:before {
   border-radius: 12px;
 }
 
-.intro .intro-text .form input, .intro .intro-text .form select {
+.intro .intro-text .form input,
+.intro .intro-text .form select {
   border: none !important;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   outline: none;
 }
 
@@ -263,15 +276,16 @@ ul.list-in-text li:before {
 
 .intro .intro-text .follow img:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .intro .intro-img {
   margin-top: 30px;
+  padding-left: 120px;
 }
 
 .intro .intro-img img {
-  width: 100%;
+  width: 80%;
 }
 
 .search-by {
@@ -306,7 +320,7 @@ ul.list-in-text li:before {
 }
 
 .search-by .carousel .card-item:hover {
-  color: #92d35e;
+  color: #6499e9;
 }
 
 .search-by .carousel .card-item:hover .main-state {
@@ -322,13 +336,13 @@ ul.list-in-text li:before {
   width: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 5px;
 }
 
@@ -346,7 +360,7 @@ ul.list-in-text li:before {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .job-offers .image {
@@ -399,8 +413,8 @@ ul.list-in-text li:before {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-top: 30px;
   border-top: 1px solid #e7e7e7;
 }
@@ -414,7 +428,7 @@ ul.list-in-text li:before {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   bottom: -25px;
 }
 
@@ -432,10 +446,10 @@ ul.list-in-text li:before {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   gap: 40px;
   margin-top: 40px;
 }
@@ -451,18 +465,18 @@ ul.list-in-text li:before {
 .service .service-items .item .counter {
   font-weight: 900;
   font-size: 2em;
-  color: #92d35e;
+  color: #6499e9;
   padding: 20px 0px 10px 0px;
 }
 
 .service .item:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .update-news {
   padding: 40px;
-  background-color: #92d35e;
+  background-color: #6499e9;
   border-radius: 40px;
   margin: 50px 0px 0px 0px;
   color: white;
@@ -504,10 +518,10 @@ ul.list-in-text li:before {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   gap: 10px;
 }
 
@@ -525,8 +539,8 @@ ul.list-in-text li:before {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 30px;
 }
 
@@ -568,7 +582,8 @@ ul.list-in-text li:before {
   margin-top: 30px;
 }
 
-.contact-page #contactForm input, .contact-page #contactForm textarea {
+.contact-page #contactForm input,
+.contact-page #contactForm textarea {
   border-radius: 0px !important;
 }
 
@@ -624,7 +639,7 @@ ul.list-in-text li:before {
 
 .pagination .page-link:focus {
   -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .post-meta {
@@ -637,7 +652,7 @@ ul.list-in-text li:before {
 }
 
 .post-meta i {
-  color: #92d35e;
+  color: #6499e9;
 }
 
 .sidebar .input-group {
@@ -660,7 +675,7 @@ ul.list-in-text li:before {
 }
 
 .sidebar .input-group #search-button:hover {
-  color: #92d35e;
+  color: #6499e9;
 }
 
 .sidebar .recent-posts {
@@ -681,7 +696,7 @@ ul.list-in-text li:before {
 }
 
 .sidebar .recent-posts .post-item .post-title:hover {
-  color: #92d35e;
+  color: #6499e9;
 }
 
 .sidebar .recent-posts .post-item .post-meta {
@@ -729,7 +744,7 @@ ul.list-in-text li:before {
 }
 
 #carouselsidebar .carousel-item .card-item:hover {
-  color: #92d35e;
+  color: #6499e9;
 }
 
 #carouselsidebar .carousel-item .card-item:hover .main-state {
@@ -745,17 +760,17 @@ ul.list-in-text li:before {
   width: 100%;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 #carouselsidebar .carousel-nav .nav-item {
-  background-color: #92d35e;
+  background-color: #6499e9;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -768,7 +783,7 @@ ul.list-in-text li:before {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 footer {
@@ -799,15 +814,17 @@ footer .footer-wrap .social-media img {
 
 footer .footer-wrap .social-media a img:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-footer .footer-wrap .company a:hover, footer .footer-wrap .useful-links a:hover {
+footer .footer-wrap .company a:hover,
+footer .footer-wrap .useful-links a:hover {
   color: black;
   font-weight: 600;
 }
 
-footer .footer-wrap .company p, footer .footer-wrap .useful-links p {
+footer .footer-wrap .company p,
+footer .footer-wrap .useful-links p {
   margin-bottom: 0.3em;
 }
 
@@ -843,7 +860,7 @@ footer .footer-wrap .newsletter #subscribe button {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     z-index: 1;
   }
   .intro .intro-img {
@@ -891,10 +908,10 @@ footer .footer-wrap .newsletter #subscribe button {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 20px;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   .team .team-person .person {
     margin-bottom: 50px;
@@ -915,8 +932,8 @@ footer .footer-wrap .newsletter #subscribe button {
   }
   footer .footer-wrap {
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -935,7 +952,7 @@ footer .footer-wrap .newsletter #subscribe button {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     z-index: 5;
   }
   .intro .intro-text .form {
@@ -958,12 +975,12 @@ footer .footer-wrap .newsletter #subscribe button {
     border-radius: 10px;
   }
   .intro .intro-text .form .location::before {
-    content: '';
+    content: "";
     position: absolute;
     left: -5px;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     width: 2px;
     height: 12px;
     background-color: #4b4b4b;
@@ -972,7 +989,7 @@ footer .footer-wrap .newsletter #subscribe button {
     position: absolute;
     bottom: 50%;
     -webkit-transform: translateY(50%);
-            transform: translateY(50%);
+    transform: translateY(50%);
     right: -200px;
     width: 60%;
   }
@@ -1021,7 +1038,7 @@ footer .footer-wrap .newsletter #subscribe button {
     right: 0;
     top: 50%;
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   .update-news .news-form input {
     width: 60%;
